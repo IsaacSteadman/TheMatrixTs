@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Kontract | Control Panel</title>
+  <title>Just The Matrix</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.less">
   <script src="main.ts"></script>
 </head>
+
 <body>
+  <div id="div-init" style="display: none"></div>
+  <div id="div-main"></div>
+  <div id="div-settings" style="display: none">
+    <form>
+      Density: <input type="number" name="density" min="0" /> <br />
+      Rate: <input type="number" name="rate" min="0" /> <br />
+      ChngDensity: <input type="number" name="chngDensity" min="0" /> <br />
+      EndChance: <input type="number" name="endChance" min="0" /> <br />
+      <input type="button" name="apply" value="Apply" />&nbsp;
+      <input type="button" name="cancel" value="Cancel" />&nbsp;
+      <input type="submit" name="ok" value="Ok" />
+    </form>
+  </div>
 </body>
+
 </html>
